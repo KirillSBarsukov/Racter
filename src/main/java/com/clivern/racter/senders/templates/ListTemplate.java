@@ -22,6 +22,7 @@ import java.util.HashMap;
  *
  * @since 1.0.0
  */
+@Deprecated
 public class ListTemplate implements SenderTemplate {
 
     protected String recipient_id;

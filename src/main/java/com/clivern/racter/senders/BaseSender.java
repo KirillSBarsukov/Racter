@@ -106,6 +106,15 @@ public class BaseSender {
     public ReceiptTemplate getReceiptTemplate() {
         return new ReceiptTemplate();
     }
+    
+    /**
+     * Get Product Template Instance
+     *
+     * @return ProductTemplate a new instance of Product template
+     */
+    public ProductTemplate getProductTemplate() {
+        return new ProductTemplate();
+    }
 
     /**
      * Send Default Message
